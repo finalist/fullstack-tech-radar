@@ -1,0 +1,48 @@
+label,link,quadrant,ring,moved,active
+Clojure,https://clojure.org/,0,3,-1,FALSE
+CockroachDB,https://www.thoughtworks.com/radar/platforms/cockroachdb,1,2,1,FALSE
+Couchbase,https://www.couchbase.com/community,1,3,-1,FALSE
+CSS-in-JS,https://www.thoughtworks.com/radar/languages-and-frameworks/css-in-js,2,1,1,FALSE
+Cucumber,https://cucumber.io/,3,0,0,FALSE
+Cypress,https://www.thoughtworks.com/radar/tools/cypress,3,2,1,FALSE
+Datomic,https://www.datomic.com/,1,0,0,FALSE
+DDD,https://en.wikipedia.org/wiki/Domain-driven_design,2,0,0,FALSE
+Docker,https://www.thoughtworks.com/radar/platforms/docker,1,0,0,FALSE
+Elasticsearch,https://www.elastic.co/products/app-search,1,0,0,FALSE
+Front-end testing,http://frontendtesting.com/,2,0,0,FALSE
+GraalVM,https://www.thoughtworks.com/radar/platforms/graalvm,1,2,1,FALSE
+Grafeas,https://www.thoughtworks.com/radar/tools/grafeas,3,2,0,FALSE
+GraphQL,https://www.thoughtworks.com/radar/languages-and-frameworks/graphql,0,1,0,FALSE
+Hibernate,https://hibernate.org/,0,0,0,FALSE
+Java 8,https://www.thoughtworks.com/radar/languages-and-frameworks/java-8,0,0,0,FALSE
+JavaScript,https://www.thoughtworks.com/radar/languages-and-frameworks/javascript-as-a-first-class-language,0,0,0,FALSE
+Jenkins,https://jenkins.io/,3,0,0,FALSE
+Jest,https://jestjs.io,3,2,1,FALSE
+jOOQ,https://www.jooq.org/,0,2,0,FALSE
+Jupyter,https://www.thoughtworks.com/radar/tools/jupyter,3,1,0,FALSE
+Kafka,https://www.thoughtworks.com/radar/tools/apache-kafka,1,1,0,FALSE
+Keycloak,https://www.thoughtworks.com/radar/platforms/keycloak,1,0,0,FALSE
+Knative,https://www.thoughtworks.com/radar/platforms/knative,1,2,0,FALSE
+Kong,https://www.thoughtworks.com/radar/tools/kong-api-gateway,3,2,0,FALSE
+Kotlin,https://www.thoughtworks.com/radar/languages-and-frameworks/kotlin,0,2,0,FALSE
+Kubernetes,https://www.thoughtworks.com/radar/platforms/kubernetes,1,0,0,FALSE
+Maven,https://www.thoughtworks.com/radar/tools/maven,3,0,0,FALSE
+Micro-frontends,https://www.thoughtworks.com/radar/techniques/micro-frontends,2,1,0,FALSE
+ML PaaS,https://thenewstack.io/an-introduction-to-the-machine-learning-platform-as-a-service/,1,2,0,FALSE
+next.js,https://www.thoughtworks.com/radar/languages-and-frameworks/next-js,0,2,1,FALSE
+OpenShift,https://www.openshift.com/,1,0,0,FALSE
+PostgreSQL,https://www.postgresql.org/,1,0,0,FALSE
+Progressive Web Applications,https://www.thoughtworks.com/radar/techniques/progressive-web-applications,2,1,0,FALSE
+Prometheus,https://prometheus.io/,3,1,0,FALSE
+Quarkus,https://www.thoughtworks.com/radar/languages-and-frameworks/quarkus,0,2,1,FALSE
+R,https://www.r-project.org/,0,1,0,FALSE
+React,https://www.thoughtworks.com/radar/languages-and-frameworks/react-js,0,0,0,FALSE
+React Native,https://www.thoughtworks.com/radar/languages-and-frameworks/react-native,0,1,0,FALSE
+Redux,https://www.thoughtworks.com/radar/languages-and-frameworks/redux,0,0,0,FALSE
+Spring,https://spring.io/,0,0,0,FALSE
+Spring Boot,https://www.thoughtworks.com/radar/languages-and-frameworks/spring-boot,1,0,0,FALSE
+Snowflake,https://www.thoughtworks.com/radar/platforms/snowflake,1,2,0,FALSE
+TensorFlow,https://www.thoughtworks.com/radar/languages-and-frameworks/tensorflow,1,2,1,FALSE
+TypeScript,https://www.thoughtworks.com/radar/languages-and-frameworks/typescript,0,2,1,FALSE
+Web Components,https://www.thoughtworks.com/radar/platforms/web-components-standard,2,1,1,FALSE
+Yarn,https://www.thoughtworks.com/radar/tools/yarn,3,0,0,FALSE

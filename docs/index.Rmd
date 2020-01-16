@@ -1,0 +1,47 @@
+---
+title: "Finalist Fullstack Tech Radar"
+css: radar.css
+theme: null
+mathjax: null
+---
+
+```{r tech, echo=F}
+library("jsonlite")
+d <- read.table("tech.csv", sep=",", header=T, stringsAsFactors=F)
+entries <- toJSON(d)
+```
+    
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="radar.js"></script>
+
+<svg id="radar"></svg>
+<script>
+radar_visualization({
+  svg_id: "radar",
+  width: 1450,
+  height: 1000,
+  colors: {
+    background: "#fff",
+    grid: "#bbb",
+    inactive: "#ddd"
+  },
+  title: "2020.01",
+  quadrants: [
+    { name: "Languages & Frameworks" },
+    { name: "Platforms" },
+    { name: "Techniques" },
+    { name: "Tools" }
+  ],
+  rings: [
+    { name: "ADOPT", color: "#93c47d" },
+    { name: "TRIAL", color: "#93d2c2" },
+    { name: "ASSESS", color: "#fbdb84" },
+    { name: "HOLD", color: "#efafa9" }
+  ],
+  print_layout: true,
+  // zoomed_quadrant: 0,
+  //ENTRIES
+entries: `r entries`
+  //ENTRIES
+});
+</script>
