@@ -1,0 +1,10 @@
+---
+title: "Fullstack Tech Radar"
+output: html_fragment
+---
+```{r start, echo=F}
+library(kableExtra)
+source("confluence.R")
+d <- load()
+kable(d, row.names=F) %>% kable_styling(full_width=F, position="left")
+```
