@@ -6,7 +6,7 @@ mathjax: null
 ---
 
 ```{r tech, echo=F}
-library("jsonlite")
+library("rjson")
 d <- read.table("tech.csv", sep=",", header=T, stringsAsFactors=F)
 entries <- toJSON(d)
 ```
