@@ -1,24 +1,24 @@
 label,link,tw_key,quadrant,ring,moved,active,Categorie
-Clojure,https://clojure.org/,clojure,0,3,-1,FALSE,Backend
-CockroachDB,https://www.cockroachlabs.com/db/product,cockroachdb,1,2,1,FALSE,Data Engineering
-Couchbase,https://www.couchbase.com/community,couchbase,1,3,-1,FALSE,Data Engineering
-CSS-in-JS,https://medium.com/dailyjs/what-is-actually-css-in-js-f2f529a2757,css-in-js,0,1,1,FALSE,Frontend
+Clojure,https://clojure.org/,clojure,0,3,0,FALSE,Backend
+CockroachDB,https://www.cockroachlabs.com/db/product,cockroachdb,1,2,0,FALSE,Data Engineering
+Couchbase,https://www.couchbase.com/community,couchbase,1,3,0,FALSE,Data Engineering
+CSS-in-JS,https://medium.com/dailyjs/what-is-actually-css-in-js-f2f529a2757,css-in-js,0,1,0,FALSE,Frontend
 Cucumber,https://cucumber.io/,,3,0,0,FALSE,Software Quality
-Cypress,https://www.cypress.io/,cypress,3,2,1,FALSE,Software Quality
+Cypress,https://www.cypress.io/,cypress,3,2,0,FALSE,Software Quality
 Datomic,https://www.datomic.com/,datomic,1,0,0,FALSE,Data Engineering
 DDD,https://en.wikipedia.org/wiki/Domain-driven_design,,2,0,0,FALSE,Design
 Docker,https://www.docker.com/,docker,1,0,0,FALSE,Cloud
 Elasticsearch,https://www.elastic.co/products/app-search,elastic-search,1,0,0,FALSE,Data Engineering
 Front-end testing,http://frontendtesting.com/,,2,0,0,FALSE,Frontend
-GraalVM,https://www.graalvm.org/,graalvm,1,2,1,FALSE,Backend
+GraalVM,https://www.graalvm.org/,graalvm,1,2,0,FALSE,Backend
 Grafeas,https://grafeas.io/,grafeas,3,2,0,FALSE,PrivSec
 GraphQL,https://graphql.org/,graphql,0,1,0,FALSE,Frontend
 Hibernate,https://hibernate.org/,,0,0,0,FALSE,Backend
-Java 11,https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html,,0,2,1,FALSE,Backend
+Java 11,https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html,,0,2,0,FALSE,Backend
 Java 8,https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html,java-8,0,0,0,FALSE,Backend
 JavaScript,https://en.wikipedia.org/wiki/JavaScript,javascript-as-a-first-class-language,0,0,0,FALSE,Frontend
 Jenkins,https://jenkins.io/,,3,0,0,FALSE,DevOps
-Jest,https://jestjs.io,jest,3,2,1,FALSE,Software Quality
+Jest,https://jestjs.io,jest,3,2,0,FALSE,Software Quality
 jOOQ,https://www.jooq.org/,,0,2,0,FALSE,Backend
 Jupyter,https://jupyter.org/,jupyter,3,1,0,FALSE,Data Engineering
 Kafka,https://kafka.apache.org/,apache-kafka,1,1,0,FALSE,Data Engineering
@@ -30,20 +30,20 @@ Kubernetes,https://kubernetes.io/,kubernetes,1,0,0,FALSE,Cloud
 Maven,https://maven.apache.org/,maven,3,0,0,FALSE,Backend
 Micro-frontends,https://martinfowler.com/articles/micro-frontends.html,micro-frontends,2,1,0,FALSE,Frontend
 ML PaaS,https://thenewstack.io/an-introduction-to-the-machine-learning-platform-as-a-service/,,1,3,-1,FALSE,Data Engineering
-next.js,https://nextjs.org/,next-js,0,2,1,FALSE,Frontend
+next.js,https://nextjs.org/,next-js,0,2,0,FALSE,Frontend
 OpenShift,https://www.openshift.com/,,1,0,0,FALSE,Cloud
 PostgreSQL,https://www.postgresql.org/,,1,0,0,FALSE,Data Engineering
 Progressive Web Applications,https://en.wikipedia.org/wiki/Progressive_web_application,progressive-web-applications,2,1,0,FALSE,Frontend
 Prometheus,https://prometheus.io/,prometheus,3,1,0,FALSE,DevOps
-Quarkus,https://quarkus.io/,quarkus,0,2,1,FALSE,Cloud
+Quarkus,https://quarkus.io/,quarkus,0,2,0,FALSE,Cloud
 R,https://www.r-project.org/,r-as-compute-platform,0,1,0,FALSE,Data Engineering
 React,https://reactjs.org/,react-js,0,0,0,FALSE,Frontend
 React Native,https://facebook.github.io/react-native/,react-native,0,1,0,FALSE,Frontend
 Redux,https://redux.js.org/,redux,0,0,0,FALSE,Frontend
 Snowflake,https://www.snowflake.com/,snowflake,1,2,0,FALSE,Data Engineering
-Spring Framework,https://spring.io/,,0,0,0,FALSE,Backend
 Spring Boot,https://spring.io/projects/spring-boot,spring-boot,1,0,0,FALSE,Backend
-TensorFlow,https://www.tensorflow.org/,tensorflow,1,2,1,FALSE,Data Engineering
-TypeScript,https://www.typescriptlang.org/,typescript,0,2,1,FALSE,Frontend
-Web Components,https://developer.mozilla.org/en-US/docs/Web/Web_Components,web-components-standard,2,1,1,FALSE,Frontend
+Spring Framework,https://spring.io/,,0,0,0,FALSE,Backend
+TensorFlow,https://www.tensorflow.org/,tensorflow,1,2,0,FALSE,Data Engineering
+TypeScript,https://www.typescriptlang.org/,typescript,0,2,0,FALSE,Frontend
+Web Components,https://developer.mozilla.org/en-US/docs/Web/Web_Components,web-components-standard,2,1,0,FALSE,Frontend
 Yarn,https://yarnpkg.com/,yarn,3,0,0,FALSE,Frontend

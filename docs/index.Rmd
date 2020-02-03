@@ -6,9 +6,8 @@ mathjax: null
 ---
 
 ```{r tech, echo=F}
-library("rjson")
 d <- read.table("tech.csv", sep=",", header=T, stringsAsFactors=F)
-entries <- toJSON(d)
+entries <- jsonlite::toJSON(d)
 ```
     
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -25,7 +24,7 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "2020.01",
+  title: "2020.02",
   quadrants: [
     { name: "Languages & Frameworks" },
     { name: "Platforms" },
