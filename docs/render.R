@@ -1,3 +1,9 @@
 library(rmarkdown)
-rmarkdown::render('index.Rmd', 'html_document')
-system("open index.html")
+
+render <- function(s)
+{
+    rmarkdown::render('index.Rmd',
+                      'html_document',
+                      params=list(solution=s))
+    system("open index.html")
+}
