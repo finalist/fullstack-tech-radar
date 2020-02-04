@@ -1,9 +1,11 @@
 library(rmarkdown)
 
-render <- function(s)
+render <- function(s="Fullstack")
 {
-    rmarkdown::render('index.Rmd',
+    rmarkdown::render('default.Rmd',
                       'html_document',
                       params=list(solution=s))
-    system("open index.html")
+    fname <- sprintf("%s.html", tolower(s))
+    system(sprintf("mv default.html %s", fname))
+    system(sprintf("open %s", fname))
 }
