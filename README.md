@@ -14,6 +14,8 @@ cd docs
 
 Solution being one of 'Fullstack', 'Integatie', 'Liferay', or 'Drupal'.
 
+Landing page: https://finalist.github.io/tech-radar/
+
 ## License
 
 ```
