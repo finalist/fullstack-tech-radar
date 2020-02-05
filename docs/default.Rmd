@@ -7,12 +7,13 @@ params:
     solution: "Fullstack"
 ---
 
-```{r tech, echo=F, message=F}
+```{r tech, echo=F, message=F, warning=F}
 source("sheets.R")
 title <- paste(params$solution,
                "Tech Radar,",
                format(Sys.Date(), "%B %Y"))
-d <- load_googlesheet(s)
+d <- load_googlesheet(sheet=params$solution,
+                      user=params$user)
 entries <- jsonlite::toJSON(d)
 ```
 

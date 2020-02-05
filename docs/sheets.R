@@ -1,6 +1,6 @@
-# install.packages("googlesheets4")
 library(googlesheets4)
-library(googledrive)
+
+ssid <- "1IW-pMqIgoYJeSTCcFJB9bfO-0oamSSKOtDiA5ywIUts"
 
 recode_quadrant <- function(s)
 {
@@ -20,9 +20,8 @@ recode_ring <- function(s)
 
 load_googlesheet <- function(sheet="Fullstack")
 {
-    doc <- drive_get("Finalist Technology Radars")
-    ss <- sheets_get(doc)
-    s <- read_sheet(ss$spreadsheet_id, sheet)
+    sheets_auth()
+    s <- read_sheet(ssid, sheet)
     s$quadrant <- recode_quadrant(s$quadrant)
     s$ring <- recode_ring(s$ring)
     s
