@@ -4,10 +4,10 @@ library(httr)
 library(yaml)
 library(rjson)
 
-cfg <- read_yaml("radar.yml")
+confluence <- read_yaml("confluence.yml")
 
-authn <- authenticate(cfg$confluence$username,
-                      cfg$confluence$password)
+authn <- authenticate(confluence$username,
+                      confluence$password)
 
 render_html <- function()
 {
@@ -73,7 +73,7 @@ upload_html <- function()
 {
     page_url <- paste0(
         "https://wiki.finalist.com/rest/api/content/",
-        cfg$confluence$page$id)
+        confluence$page$id)
 
     json <- content(GET(url=page_url, authn))
 
