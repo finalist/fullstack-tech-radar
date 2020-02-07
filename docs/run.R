@@ -23,7 +23,10 @@ if ( !is.null(opt$clean) ) {
 if ( !is.null(opt$solution) ) {
     rmarkdown::render('default.Rmd',
                       'html_document',
-                      params=list(opt$solution))
+                      params=list(solution=opt$solution))
+    fname <- paste0(tolower(opt$solution), ".html")
+    system(paste0("mv default.html ", fname))
+    system(paste0("open ", fname))
 }
 
 if ( !is.null(opt$wiki) ) {

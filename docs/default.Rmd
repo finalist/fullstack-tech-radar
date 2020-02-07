@@ -12,8 +12,7 @@ source("sheets.R")
 title <- paste(params$solution,
                "Tech Radar,",
                format(Sys.Date(), "%B %Y"))
-d <- load_googlesheet(sheet=params$solution,
-                      user=params$user)
+d <- load_googlesheet(sheet=params$solution)
 entries <- jsonlite::toJSON(d)
 ```
 
