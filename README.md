@@ -5,7 +5,7 @@ Requirements:
 - Access to the Tech Radar Googlesheets
 - Pandoc (brew install pandoc)
 - R (brew install r)
-- R (install.packages(c("getopt","rmarkdown"),dependencies=TRUE)
+- R (install.packages(c("getopt","rmarkdown","googlesheets4"),dependencies=TRUE)
 
 Usage:
 
