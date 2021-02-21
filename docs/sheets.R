@@ -20,7 +20,7 @@ recode_ring <- function(s)
 
 load_googlesheet <- function(sheet="Fullstack")
 {
-    sheets_auth()
+    gs4_auth(email="martin.van.amersfoorth@finalist.nl")
     s <- read_sheet(ssid, sheet)
     s$quadrant <- recode_quadrant(s$quadrant)
     s$ring <- recode_ring(s$ring)
