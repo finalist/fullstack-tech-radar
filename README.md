@@ -3,15 +3,15 @@ Forked from the [Zalando Tech Radar](https://github.com/zalando/tech-radar)
 Requirements:
 
 - Access to the Tech Radar Googlesheets
-- Pandoc (brew install pandoc)
-- R (brew install r)
-- R (install.packages(c("getopt","rmarkdown","googlesheets4"),dependencies=TRUE)
+- Pandoc (`brew install pandoc`)
+- R (`brew install r`)
+- R-packages getopt, rmarkdown, googlesheets4 (`R -e 'install.packages(c("getopt","rmarkdown","googlesheets4"),dependencies=TRUE, repos = "https://mirror.lyrahosting.com/CRAN/")'`
 
 Usage:
 
 ```bash
 cd docs
-./radar.sh --solution=<solution>
+./radar.sh --solution=<solution> --
 ```
 
 Solution being one of 'Fullstack', 'Integatie', 'Liferay', or 'Drupal'.
